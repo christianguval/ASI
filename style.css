@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*===========================================
+*
+*                 Header
+*
+*
+*=========================================*/
+
+header {
+  background: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+
+}
+ header nav {
+   text-align: right;
+ }
+
+.logo img {
+  max-width: 500px;
+  position: fixed;
+
+
+}
+.logo {
+  padding-bottom: 16px;
+
+}
+
+
+header nav ul li {
+  display: inline;
+
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  margin: 0 20px;
+  transition: 0.5s;
+
+
+}
+
+header nav a:hover {
+  color: black;
+  background: white;
+  padding: 3px 3px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+/*===========================================
+*
+*                 Home Image
+*
+*
+*=========================================*/
+
+.container img{
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+
+}
+
+
+/*===========================================
+*
+*                 About-section
+*
+*
+*=========================================*/
+
+.about-section {
+
+
+
+}
+
+.about {
+  text-align: center;
+}
+.about h1 {
+  font-size: 55px;
+}
+.about p {
+  font-size: 40px;
+  padding: 20px 0;
+  margin: 0 100px 0 100px;
+
+
+}
+
+.image-1 img{
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+
+}
+
+/*===========================================
+*
+*                 Work Section
+*
+*
+*=========================================*/
+
+.work-title {
+  text-align: center;
+  font-size: 40px;
+}
+.work {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.subjects {
+
+  display: inline-block;
+}
+
+.subjects img {
+
+  width: 400px;
+  padding: 40px 20px 20px 20px;
+  transition: 1s;
+
+
+}
+
+.subjects img:hover {
+  width: 450px;
+  transition: 1s;
+  transition-timing-function: ease-out;
+
+}
+
+.work a {
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 40px 20px 0 20px;
+  background: black;
+  text-decoration: none;
+  color: white;
+
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+.work a:hover {
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 40px 20px 0 20px;
+  background: white;
+  text-decoration: none;
+  border: 3px solid black;
+  color: black;
+
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+
+/*===========================================
+*
+*              Section Break
+*
+*
+*=========================================*/
+
+
+.image-2-break img {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+
+}
+
+.image-2-break {
+  background: url('../images/work-2')
+
+}
+
+
+
+/*===========================================
+*
+*                 Contact Footer
+*
+*
+*=========================================*/
+.contact-form {
+  margin: 10px 200px 80px 200px;
+  text-align: center;
+
+}
+
+.contact-form div {
+  margin-bottom: 15px;
+}
+
+.contact-title {
+  font-size: 40px;
+  padding: 40px 0 0 0;
+}
+.label_input_wrap {
+  vertical-align: top;
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 3px solid black;
+  padding: 7px 10px;
+
+}
+
+.reset input,
+.submit input {
+  background: black;
+  color: white;
+  padding: 2px 3px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 12px;
+
+}
+
+.submit input {
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+.radiobutton {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+
+}
+
+
+/*===========================================
+*
+*                 Footer
+*
+*
+*=========================================*/
+
+footer {
+  background: black;
+  padding: 20px 30px;
+
+}
+
+
+footer nav ul li {
+  display: inline;
+
+}
+footer nav {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  margin: 0 20px;
+  transition: 0.5s;
+
+}
+
+footer nav a:hover {
+  color: black;
+  background: white;
+  padding: 3px 3px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+footer img {
+  width: 40px;
+  padding: 10px;
+  display: inline;
+
+}
+
+.facebook {
+  width: 20px;
+}
+
+.signature {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*===========================================
+*
+*                 Work Page
+*
+*
+*=========================================*/
+
+
+.gallery {
+  text-align: center;
+}
+.gallery img {
+  width: 295px;
+  padding: 50px;
+
+
+}
+
+.gallery h2 {
+  display: block;
+  padding: 100px 0 0 0;
+  font-size: 40px;
+
+
+}
+
+.santa {
+position: absolute;
+width: 20%;
+margin: 10px;
+top:400px;
+left: 500px;
+animation-name: walk;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+}
+
+@keyframes walk {
+  from {
+    transform: translateX(-220px);
+  }
+  to {
+    transform: translateX(200px);
+  }
+
+}
